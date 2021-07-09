@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">KeepMoney</string>
     <string name="authorization">Авторизация</string>
+    <string name="facebook_app_id">591762838475548</string>
+    <string name="fb_login_protocol_scheme">fb591762838475548</string>
+    <string name="enter_your_name">Введите ваше имя</string>
 </resources>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".AuthorizationActivity">
+    tools:context=".ui.AuthorizationActivity">
 
     <ImageView
         android:id="@+id/iv_human"
@@ -45,12 +45,15 @@
             android:src="@drawable/ic_google"/>
 
         <ImageView
+            android:id="@+id/iv_facebook"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="24dp"
+            android:layout_marginStart="24dp"
             android:src="@drawable/ic_facebook"/>
 
         <ImageView
+            android:id="@+id/iv_vk"
+            android:visibility="gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_vk"/>
